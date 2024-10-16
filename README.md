@@ -1,6 +1,6 @@
 # VoipFuture E2E Test Automation Project
 
-This project is an End-to-End (E2E) test automation framework for the VoipFuture application, developed using Selenium WebDriver with Java, TestNG, and Maven. It focuses on automating the testing of various functionalities related to the Alias Name feature in the VoipFuture application.
+This project is an End-to-End (E2E) test automation framework for the VoipFuture application, developed using Selenium WebDriver with Java, TestNG, and Maven. It focuses on automating the testing of various functionalities related to the Alias Name feature in the Qrystal application.
 
 ## Table of Contents
 - [Project Structure](#project-structure)
