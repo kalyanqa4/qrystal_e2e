@@ -13,7 +13,37 @@ This project is an End-to-End (E2E) test automation framework for the VoipFuture
 
 ## Project Structure
 
-qrystal_e2e/ │ ├── src/ │ ├── main/ │ │ ├── java/ │ │ │ └── com.qrystal.pages/ # Page Object Model (POM) classes for web pages │ │ │ ├── AliasNameAddEditPage.java │ │ │ ├── AliasNameDeletePage.java │ │ │ ├── AliasNameListPage.java │ │ │ ├── AliasNameListTablePage.java │ │ │ ├── APIUtils.java # API utility for interacting with backend APIs │ │ │ ├── LoginPage.java # Login page interactions │ │ │ └── WebElementUtils.java # Common WebDriver utilities │ │ └── com.qrystal.utils/ │ │ ├── DriverInitialization.java # Driver setup and initialization │ │ └── ExcelUtils.java # Utility for reading data from Excel files │ ├── test/ │ │ ├── java/ │ │ │ └── com.qrystal.tests/ # Test classes │ │ │ ├── AliasNameList_IP_AddTest.java │ │ │ ├── AliasNameList_IP_DeleteTest.java │ │ │ ├── AliasNameList_IP_ReadTest.java │ │ │ ├── AliasNameList_IP_UpdateTest.java │ │ │ └── BaseTestClass.java # Base test class for shared setup and teardown │ └── resources/ # Additional resources (e.g., test data, config files) ├── pom.xml # Maven configuration file └── testng.xml # TestNG suite configuration
+## Project Structure
+
+```plaintext
+qrystal_e2e/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com.qrystal.pages/                  # Page Object Model (POM) classes for web pages
+│   │   │       ├── AliasNameAddEditPage.java
+│   │   │       ├── AliasNameDeletePage.java
+│   │   │       ├── AliasNameListPage.java
+│   │   │       ├── AliasNameListTablePage.java
+│   │   │       ├── APIUtils.java                     # API utility for interacting with backend APIs
+│   │   │       ├── LoginPage.java                    # Login page interactions
+│   │   │       └── WebElementUtils.java              # Common WebDriver utilities
+│   │   └── com.qrystal.utils/
+│   │       ├── DriverInitialization.java              # Driver setup and initialization
+│   │       └── ExcelUtils.java                        # Utility for reading data from Excel files
+│   ├── test/
+│   │   ├── java/
+│   │   │   └── com.qrystal.tests/                     # Test classes
+│   │   │       ├── AliasNameList_IP_AddTest.java
+│   │   │       ├── AliasNameList_IP_DeleteTest.java
+│   │   │       ├── AliasNameList_IP_ReadTest.java
+│   │   │       ├── AliasNameList_IP_UpdateTest.java
+│   │   │       └── BaseTestClass.java                 # Base test class for shared setup and teardown
+│   └── resources/                                     # Additional resources (e.g., test data, config files)
+├── pom.xml                                            # Maven configuration file
+└── testng.xml                                         # TestNG suite configuration
+
+
 
 ### Key Components
 - **Page Object Model (POM)**: Classes in `com.qrystal.pages` package represent the various pages of the application.
