@@ -44,7 +44,7 @@ qrystal_e2e/
 
 
 
-### Key Components
+## Key Components
 - **Page Object Model (POM)**: Classes in `com.qrystal.pages` package represent the various pages of the application.
 - **Utilities**: Helper classes to handle common functions like WebDriver initialization (`DriverInitialization`), Excel file handling (`ExcelUtils`), and API utilities (`APIUtils`).
 - **Tests**: Test classes are organized in the `com.qrystal.tests` package, where each class targets specific operations like Add, Delete, Update, and Read for Alias Name functionalities.
