@@ -11,7 +11,6 @@ This project is an End-to-End (E2E) test automation framework for the VoipFuture
 - [Customization](#customization)
 - [Contributing](#contributing)
 
-## Project Structure
 
 ## Project Structure
 
