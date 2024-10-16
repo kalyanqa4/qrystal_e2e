@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="MyMavenTestSuite" verbose="1">
+
+    <!-- Test to run all tests in a specific package -->
+    <test name="RunAllTestsInPackage">
+        <packages>
+            <package name="com.qrystal.tests"/>
+        </packages>
+    </test>
+
+    <!-- Test to run tests based on specific class names -->
+    <test name="CRUD">
+        <classes>
+            <class name="com.qrystal.tests.AliasNameList_IP_AddTest"/> 
+            <class name="com.qrystal.tests.AliasNameList_IP_DeleteTest"/>
+            <class name="com.qrystal.tests.AliasNameList_IP_updateTest"/>
+            <class name="com.qrystal.tests.AliasNameList_IP_ReadTest"/>
+        </classes>
+    </test>
+
+</suite>
+
