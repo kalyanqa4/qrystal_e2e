@@ -14,6 +14,8 @@ This project is an End-to-End (E2E) test automation framework for the VoipFuture
 
 ## Project Structure
 
+
+````plaintext
 qrystal_e2e/
 ├── src/
 │   ├── main/
@@ -42,7 +44,7 @@ qrystal_e2e/
 └── testng.xml                                         # TestNG suite configuration
 
 
-
+````
 
 
 
