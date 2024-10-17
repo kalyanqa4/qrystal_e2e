@@ -3,18 +3,17 @@
 This project is an End-to-End (E2E) test automation framework for the VoipFuture application, developed using Selenium WebDriver with Java, TestNG, and Maven. It focuses on automating the testing of various functionalities related to the Alias Name feature in the Qrystal application.
 
 ## Table of Contents
-- [Project Structure](#project-structure)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [How to Run Tests](#how-to-run-tests)
-- [Test Reports](#test-reports)
-- [Customization](#customization)
-- [Contributing](#contributing)
+* [Project Structure](#project-structure)
+* [Prerequisites](#prerequisites)
+* [Installation](#installation)
+* [How to Run Tests](#how-to-run-tests)
+* [Test Reports](#test-reports)
+* [Customization](#customization)
+* [Contributing](#contributing)
 
 
 ## Project Structure
 
-```plaintext
 qrystal_e2e/
 ├── src/
 │   ├── main/
@@ -45,6 +44,8 @@ qrystal_e2e/
 
 
 
+
+
 ## Key Components
 - **Page Object Model (POM)**: Classes in `com.qrystal.pages` package represent the various pages of the application.
 - **Utilities**: Helper classes to handle common functions like WebDriver initialization (`DriverInitialization`), Excel file handling (`ExcelUtils`), and API utilities (`APIUtils`).
@@ -53,7 +54,7 @@ qrystal_e2e/
 
 
 
-## Prerequisites
+## prerequisites
 
 - Java Development Kit (JDK) 1.8 or above
 - Maven 3.5 or above
