@@ -44,10 +44,14 @@ qrystal_e2e/
 
 
 
+
 ## Key Components
 - **Page Object Model (POM)**: Classes in `com.qrystal.pages` package represent the various pages of the application.
 - **Utilities**: Helper classes to handle common functions like WebDriver initialization (`DriverInitialization`), Excel file handling (`ExcelUtils`), and API utilities (`APIUtils`).
 - **Tests**: Test classes are organized in the `com.qrystal.tests` package, where each class targets specific operations like Add, Delete, Update, and Read for Alias Name functionalities.
+
+
+
 
 ## Prerequisites
 
@@ -57,6 +61,9 @@ qrystal_e2e/
 - TestNG framework
 
 Ensure that Java, Maven, and necessary browser drivers (e.g., ChromeDriver, GeckoDriver) are installed and configured in your system's PATH.
+
+
+
 
 ## Installation
 
@@ -96,10 +103,18 @@ Ensure that Java, Maven, and necessary browser drivers (e.g., ChromeDriver, Geck
 
 After the test execution, TestNG reports will be generated automatically in the `target/surefire-reports` folder. You can access detailed reports via the `testng-results.xml` file.
 
+
+
+
+
 ## Customization
 
 - **Browser Configuration**: You can configure the browser type (e.g., Chrome, Firefox) by modifying the driver initialization in the `DriverInitialization.java` file.
 - **Test Data**: Test data can be supplied via Excel sheets, and read using the `ExcelUtils.java` utility class.
+
+
+
+
 
 ## Contributing
 
