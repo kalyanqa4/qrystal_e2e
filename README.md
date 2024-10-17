@@ -4,12 +4,6 @@ This project is an End-to-End (E2E) test automation framework for the VoipFuture
 
 ## Table of Contents
 - [Project Structure](#project-structure)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [How to Run Tests](#how-to-run-tests)
-- [Test Reports](#test-reports)
-- [Customization](#customization)
-- [Contributing](#contributing)
 
 
 ## Project Structure
